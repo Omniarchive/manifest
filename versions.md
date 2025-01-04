@@ -6,7 +6,7 @@ This file is a JSON object representing a Minecraft version. It contains the fol
 - `id`: string - Used to uniquely identify a version.
 - `downloads`: object - See [here](#download).
 - `libraries`: object - See [here](#libraries).
-- `time`, `releaseTime`, `type`, `phase`, `complianceLevel`: string - [See manifest.md for possible values and descriptions.](manifest.md)
+- `time`, `releaseTime`, `type`, `phase`, `complianceLevel`: [See manifest.md for possible values and descriptions.](manifest.md)
 - `mainClass`: string - The main class path in the version jar file. May be null.
 - `javaVersion`: object - Contains the keys `majorVersion`, `component`, and `minVersion`.
     - `majorVersion`: number - The recommended major java version to run the game with.
